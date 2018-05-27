@@ -96,10 +96,10 @@ VALUES
 
 IINSERT INTO `service` (id,id_category,name,price,description)
 VALUES
-	(1,1,'Transat','15.00','Location de transat de luxe à la journée, pour pouvoir bronzer dans le plus grand des conforts'),
-	(2,2,'Massage thaïlandais','60.00','Massage traditionnel éxécuter par des professionnels diplômés. Venez découvrir un moment de détente intégrale'),
-	(3,3,'Petit déjeuner','15.00','Petit déjeuner servie en chambre avec divers choix de viennoiseries, boissons chaudes et jus de fruits de saison pressé dans nos locaux'),
-	(4,4,'Mini-bar','150.00','Mise à disposition de divers spiritueux et recharger quotidiennement. Le prix est journalier. Disponible que pour les suites');
+	(1,1,"Piscine",'9.00',"Profiter pendant 1h d'une piscine agréable et chauffé en hiver"),
+	(2,2,'Massage intégral','50.00','Massage intégral éxécuter par des professionnels diplômés pour se détendre'),
+	(3,3,'Petit déjeuner au lit','20.00','Petit déjeuner servie au lit avec divers choix de produit à la carte'),
+	(4,4,'Spa','15.00',"Profiter d'un SPA pendant 1h pour se détendre");
 
 INSERT INTO `booking` (id,id_room,id_customers,id_state,start_stay,end_stay,price)
 VALUES
